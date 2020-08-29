@@ -1,0 +1,35 @@
+.Banner {
+  width: 100vw;
+  align-content: center;
+  height: 100%;
+}
+
+.banner__flex {
+  margin: auto auto;
+  display: flex;
+  height: 90vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.banner__text {
+  color: white;
+  font-size: 6vw;
+}
+
+.banner__form > form > input[type="text"] {
+  background: none;
+  height: 5vh;
+  border: white solid 2px;
+  border-radius: 10px;
+  color: white;
+}
+.banner__form > form > input[type="submit"] {
+  background: white;
+  color: black;
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 5vh;
+  margin-left: 10px;
+}

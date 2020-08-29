@@ -1,0 +1,16 @@
+.Header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  margin: 0;
+  /* height: 100%; */
+}
+
+.header__innerDiv {
+  width: 80vw;
+  margin: 0 auto;
+}
